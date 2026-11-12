@@ -1,5 +1,7 @@
 ﻿using System.Globalization;
 
+Console.WriteLine("HeLLO");
+
 while (true)
 {
     Console.Write("Введите первое число (или q для выхода): ");
