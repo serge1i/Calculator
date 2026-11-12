@@ -4,9 +4,9 @@ Console.WriteLine("HeLLO and happy new year!");
 
 while (true)
 {
-    Console.Write("Type in the first figure (или q для выхода): ");
+    Console.Write("Type in the first figure (или qqq для выхода): ");
     var firstInput = Console.ReadLine();
-    if (string.Equals(firstInput, "q", StringComparison.OrdinalIgnoreCase))
+    if (string.Equals(firstInput, "qqq", StringComparison.OrdinalIgnoreCase))
     {
         break;
     }
@@ -45,7 +45,7 @@ while (true)
             Console.WriteLine("На ноль делить нельзя.");
             break;
         default:
-            Console.WriteLine("Неизвестная операция.");
+            Console.WriteLine("Неизвестная операция111.");
             break;
     }
 }
