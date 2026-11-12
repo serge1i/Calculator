@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-Console.WriteLine("HeLLO!!!!!!!!");
+Console.WriteLine("HeLLO and happy new year!");
 
 while (true)
 {
