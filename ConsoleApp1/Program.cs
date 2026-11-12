@@ -4,7 +4,7 @@ Console.WriteLine("HeLLO and happy new year!");
 
 while (true)
 {
-    Console.Write("Введите первое число (или q для выхода): ");
+    Console.Write("Type in the first figure (или q для выхода): ");
     var firstInput = Console.ReadLine();
     if (string.Equals(firstInput, "q", StringComparison.OrdinalIgnoreCase))
     {
@@ -13,7 +13,7 @@ while (true)
 
     if (!double.TryParse(firstInput, CultureInfo.CurrentCulture, out var firstNumber))
     {
-        Console.WriteLine("Некорректное число.");
+        Console.WriteLine("Wrong one.");
         continue;
     }
 
